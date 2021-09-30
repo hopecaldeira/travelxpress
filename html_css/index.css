@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    width: 800px;
+}
+#container {
+    background-color: aliceblue;
+    border: solid 2px blue;
+}
+
+#header {
+    background-color: pink;
+    border: solid 2px palevioletred;
+}
+
+#header .top-bar {
+    background-color: peachpuff;
+    border: solid 2px papayawhip;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .nav-bar {
+    background-color: blueviolet;
+    border: solid 2px purple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#belly {
+    background-color: yellow;
+    border: solid 2px green;
+    display: flex;
+}
+
+#belly .left-box {
+    background-color: honeydew;
+    border: solid 2px pink;
+    width: 300px;
+    height: 300px;
+}
+
+#belly .middle-box {
+    background-color: indianred;
+    border: solid 2px lavender;
+    width: 300px;
+    height: 200px;
+}
+
+#belly .right-box {
+    background-color: lightgrey;
+    border: solid 2px orangered;
+    width: 300px;
+    height: 300px;
+}
